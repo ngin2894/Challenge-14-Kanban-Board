@@ -5,7 +5,7 @@ interface JwtPayload {
   username: string;
 }
 
-export const authenticateToken = (req: Request, res: Response, next: NextFunction) => {
+export const authenticateToken = (_req: Request, _res: Response, _next: NextFunction) => {
   (
     // TODO: verify the token exists and add the user data to the request object
     req: Request,
